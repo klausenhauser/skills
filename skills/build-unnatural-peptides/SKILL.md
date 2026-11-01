@@ -421,7 +421,7 @@ keep iterating or accept is the user's call.
 
 ## Tools
 
-The Skill-folder scripts first (rule 1), outputs in the project folders (rule 3).
+The bundled scripts first (rule 1), outputs in the project folders (rule 3).
 Underneath: gemmi for CIF and coordinate work, RDKit for graph matching and
 stereochemistry. For any file operation, verify atom count and maximum coordinate
 deviation before and after, and report both.

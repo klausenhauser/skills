@@ -5,7 +5,10 @@ Claude Code.
 
 | Plugin | Skills |
 |---|---|
-| `structural-bio` | `build-unnatural-peptides` |
+| `structural-bio` | [`build-unnatural-peptides`](skills/build-unnatural-peptides/README.md) |
+
+Each skill's own `README.md` (in `skills/<name>/`) explains what it does and
+its steps.
 
 ## Install
 
@@ -13,7 +16,7 @@ Claude Code.
 
 ```
 /plugin marketplace add klausenhauser/skills
-/plugin install structural-bio@klausenhauser-skills
+/plugin install <plugin>@klausenhauser-skills
 ```
 
 Get updates later with `/plugin marketplace update klausenhauser-skills`.

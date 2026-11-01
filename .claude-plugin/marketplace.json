@@ -1,6 +1,8 @@
 {
   "name": "klausenhauser-skills",
-  "owner": { "name": "Kelvin Lau" },
+  "owner": {
+    "name": "Kelvin Lau"
+  },
   "metadata": {
     "description": "Structural biology and lab skills for Claude"
   },
@@ -11,7 +13,9 @@
       "version": "1.0.0",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/build-unnatural-peptides"]
+      "skills": [
+        "./skills/build-unnatural-peptides"
+      ]
     }
   ]
 }
