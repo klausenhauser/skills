@@ -1,8 +1,21 @@
 {
   "name": "klausenhauser-skills",
-  "owner": { "name": "Kelvin Lau" },
+  "owner": {
+    "name": "Kelvin Lau"
+  },
   "metadata": {
     "description": "Structural biology and lab skills for Claude"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "structural-bio",
+      "description": "Crystallography skills: building unnatural peptides and covalent ligands for Phenix refinement and PDB deposition.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/build-unnatural-peptides"
+      ]
+    }
+  ]
 }

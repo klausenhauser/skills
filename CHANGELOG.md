@@ -5,6 +5,8 @@ One line per change, newest first. Bump the plugin's `version` in
 
 ## 2026-11-01
 
+- structural-bio 1.0.0: added `build-unnatural-peptides` (renamed from
+  `xray-link-unnaturals`).
 - Repo setup: marketplace, tools (`validate.py`, `build_zips.py`,
   `new_skill.py`), skill template, README, CONTRIBUTING, GitHub templates and
   the validate workflow.
