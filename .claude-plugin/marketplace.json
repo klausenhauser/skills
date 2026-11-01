@@ -1,0 +1,8 @@
+{
+  "name": "klausenhauser-skills",
+  "owner": { "name": "Kelvin Lau" },
+  "metadata": {
+    "description": "Structural biology and lab skills for Claude"
+  },
+  "plugins": []
+}
