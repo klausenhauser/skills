@@ -9,13 +9,14 @@
   "plugins": [
     {
       "name": "structural-bio",
-      "description": "Crystallography skills: molecular replacement with Phenix/Phaser, and building unnatural peptides and covalent ligands for Phenix refinement and PDB deposition.",
-      "version": "1.1.0",
+      "description": "Crystallography skills: crystallization precedent surveys, molecular replacement with Phenix/Phaser, and building unnatural peptides and covalent ligands for Phenix refinement and PDB deposition.",
+      "version": "1.2.0",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/build-unnatural-peptides",
-        "./skills/xray-mr-phaser"
+        "./skills/xray-mr-phaser",
+        "./skills/crystallization-precedent-survey"
       ]
     }
   ]

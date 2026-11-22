@@ -3,6 +3,10 @@
 One line per change, newest first. Bump the plugin's `version` in
 `.claude-plugin/marketplace.json` whenever a skill in it changes.
 
+## 2026-11-20
+
+- structural-bio 1.2.0: added `crystallization-precedent-survey`.
+
 ## 2026-11-01
 
 - structural-bio 1.1.0: added `xray-mr-phaser`.
