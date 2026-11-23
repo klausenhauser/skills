@@ -5,6 +5,10 @@ One line per change, newest first. Bump the plugin's `version` in
 
 ## 2026-11-23
 
+- sci-reporting 1.0.0: new plugin, with `sci-reference-dashboard-and-docx` --
+  a rewrite rather than a port. Axes and matrix states are now declared per
+  family instead of hard-coded to one; both deliverables render from one
+  dataset in one pass; standard library only, replacing the Node writer.
 - protein-production 1.1.1: plugin description now covers both of its skills,
   not only `expression-host-strategy`.
 - protein-production 1.1.0: add `snapgene-cro-cloning`.

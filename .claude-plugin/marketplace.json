@@ -29,6 +29,16 @@
         "./skills/expression-host-strategy",
         "./skills/snapgene-cro-cloning"
       ]
+    },
+    {
+      "name": "sci-reporting",
+      "description": "Scientific reporting skills: building a protein or gene family reference as a self-contained HTML dashboard and a matching styled Word report from one researched dataset, with members grouped by purification strategy and every row traceable to a database accession.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/sci-reference-dashboard-and-docx"
+      ]
     }
   ]
 }
