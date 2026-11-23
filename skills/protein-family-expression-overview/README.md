@@ -1,7 +1,7 @@
-# sci-reference-dashboard-and-docx
+# protein-family-expression-overview
 
-Build a reference for a protein or gene family as a tabbed HTML dashboard and a
-matching styled Word report, from one data file.
+Build an expression and purification overview of a protein or gene family as a
+tabbed HTML dashboard and a matching styled Word report, from one data file.
 
 ## What it does
 

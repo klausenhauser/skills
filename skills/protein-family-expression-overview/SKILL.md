@@ -1,9 +1,9 @@
 ---
-name: sci-reference-dashboard-and-docx
-description: Build a reference for a protein or gene family as two matching deliverables - a self-contained tabbed HTML dashboard and a styled Word report - from one researched data file, with members grouped by what drives the purification strategy, a four-tier difficulty rating, and every row traceable to a database accession. Generates both outputs in one pass from one dataset so their counts cannot diverge, and reports inconsistencies rather than leaving them to the eye. Use when asked for a family or target reference, a purification or expression guide for a set of related proteins, a dashboard plus a Word document in a house style, or a comparison table of a protein family.
+name: protein-family-expression-overview
+description: Build an expression and purification overview of a protein or gene family as two matching deliverables - a self-contained tabbed HTML dashboard and a styled Word report - from one researched data file, with members grouped by what drives the purification strategy, a four-tier difficulty rating per member, and every row traceable to a database accession. Renders both outputs in one pass from one dataset so their counts cannot diverge, and reports inconsistencies rather than leaving them to the eye. Use when asked for an expression or purification overview of a protein family, a family or target reference, a comparison table across related proteins, or a dashboard plus a matching Word document.
 ---
 
-# Family reference: HTML dashboard + Word report
+# Protein family expression overview: dashboard + Word report
 
 Two deliverables, one dataset, one run. Written for someone who already knows
 how to purify proteins: lead with the non-obvious and leave out the basics.
