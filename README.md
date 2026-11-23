@@ -6,6 +6,7 @@ Claude Code.
 | Plugin | Skills |
 |---|---|
 | `structural-bio` | [`build-unnatural-peptides`](skills/build-unnatural-peptides/README.md), [`xray-mr-phaser`](skills/xray-mr-phaser/README.md), [`crystallization-precedent-survey`](skills/crystallization-precedent-survey/README.md) |
+| `protein-production` | [`expression-host-strategy`](skills/expression-host-strategy/README.md) |
 
 Each skill's own `README.md` (in `skills/<name>/`) explains what it does and
 its steps.
@@ -16,7 +17,8 @@ its steps.
 
 ```
 /plugin marketplace add klausenhauser/skills
-/plugin install <plugin>@klausenhauser-skills
+/plugin install structural-bio --marketplace klausenhauser/skills
+/plugin install protein-production --marketplace klausenhauser/skills
 ```
 
 Get updates later with `/plugin marketplace update klausenhauser-skills`.
