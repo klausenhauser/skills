@@ -21,8 +21,8 @@
     },
     {
       "name": "protein-production",
-      "description": "Protein production skills: choosing an expression host (E. coli / insect / mammalian / yeast / cell-free) from PDB and literature precedent, and recovering construct boundaries, tags and yields for a construct design or CRO brief.",
-      "version": "1.1.0",
+      "description": "Protein production skills: choosing an expression host (E. coli / insect / mammalian / yeast / cell-free) from PDB and literature precedent, and designing, annotating and verifying cloning constructs from SnapGene .dna vectors through to a CRO gene-synthesis order sheet.",
+      "version": "1.1.1",
       "source": "./",
       "strict": false,
       "skills": [
