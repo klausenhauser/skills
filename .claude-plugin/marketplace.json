@@ -21,13 +21,14 @@
     },
     {
       "name": "protein-production",
-      "description": "Protein production skills: choosing an expression host (E. coli / insect / mammalian / yeast / cell-free) from PDB and literature precedent, and designing, annotating and verifying cloning constructs from SnapGene .dna vectors through to a CRO gene-synthesis order sheet.",
-      "version": "1.1.1",
+      "description": "Protein production skills: choosing an expression host (E. coli / insect / mammalian / yeast / cell-free) from PDB and literature precedent, designing, annotating and verifying cloning constructs from SnapGene .dna vectors through to a CRO gene-synthesis order sheet, and building a family-wide expression and purification overview as a dashboard and a matching Word report.",
+      "version": "1.2.0",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/expression-host-strategy",
-        "./skills/snapgene-cro-cloning"
+        "./skills/snapgene-cro-cloning",
+        "./skills/protein-family-expression-overview"
       ]
     }
   ]
